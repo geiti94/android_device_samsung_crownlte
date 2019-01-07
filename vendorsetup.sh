@@ -1,0 +1,2 @@
+add_lunch_combo omni_crownlte-userdebug
+add_lunch_combo omni_crownlte-eng
