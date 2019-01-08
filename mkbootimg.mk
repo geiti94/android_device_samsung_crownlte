@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
 LOCAL_PATH := $(call my-dir)
 
@@ -28,7 +29,7 @@ endif
 
 DTBTOOL := $(HOST_OUT_EXECUTABLES)/$(DTBTOOL_NAME)$(HOST_EXECUTABLE_SUFFIX)
 
-INSTALLED_DTIMAGE_TARGET := $(PRODUCT_OUT)/dt.img
+INSTALLED_DTIMAGE_TARGET := $(PRODUCT_OUT)/prebuilt/Image.gz-dtb
 
 ifeq ($(strip $(TARGET_CUSTOM_DTBTOOL)),)
 # dtbToolCM will search subdirectories
