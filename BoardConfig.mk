@@ -55,15 +55,13 @@ TARGET_USERIMAGES_USE_F2FS := true
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/crownlte/mkbootimg.mk
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_IMAGE_NAME := Image
+BOARD_KERNEL_SEPARATED_DT := true
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000
-BOARD_MKBOOTIMG_ARGS += --ramdisk_offset 0x01000000
-BOARD_MKBOOTIMG_ARGS += --tags_offset 0x00000100
-BOARD_MKBOOTIMG_ARGS += --board SRPQH16A001RU
-BOARD_MKBOOTIMG_ARGS += --dt device/samsung/crownlte/prebuilt/dt.img
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board SRPQH16A001RU
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := exynos9810-crownlte_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/universal9810-crownlte
+TARGET_KERNEL_SOURCE := kernel/samsung/universal9810
+TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 
 # Platform
 BOARD_VENDOR := samsung
@@ -86,3 +84,7 @@ TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
+
+# Include
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/crownlte/include
+
