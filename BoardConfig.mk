@@ -6,6 +6,7 @@
 # You may obtain a copy of the License at
 #
 #      http://www.apache.org/licenses/LICENSE-2.0
+
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -23,6 +24,8 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 #
+
+LOCAL_PATH := device/xiaomi/crownlte
 
 # Architecture
 TARGET_ARCH := arm64
