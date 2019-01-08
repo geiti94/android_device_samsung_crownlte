@@ -57,7 +57,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset 0x01000000
 BOARD_MKBOOTIMG_ARGS += --tags_offset 0x00000100
 BOARD_MKBOOTIMG_ARGS += --board SRPQH16A001RU
-BOARD_MKBOOTIMG_ARGS += --dt device/samsung/crownlte/dt.img
+BOARD_MKBOOTIMG_ARGS += --dt device/samsung/crownlte/prebuilt/dt.img
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := exynos9810-crownlte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/universal9810-crownlte
@@ -83,4 +83,3 @@ TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
-
