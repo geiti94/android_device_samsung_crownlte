@@ -25,7 +25,7 @@
 # components.
 #
 
-LOCAL_PATH := device/xiaomi/crownlte
+LOCAL_PATH := device/samsung/crownlte
 
 # Architecture
 TARGET_ARCH := arm64
