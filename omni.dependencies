@@ -3,7 +3,7 @@
 		"remote":"github",
 		"repository":"cawilliamson/crownlte",
 		"target_path":"kernel/samsung/universal9810-crownlte",
-		"revision":"android-8.1"
+		"revision":"tw80-android-o"
 	},
 	{
 		"remote":"github",
