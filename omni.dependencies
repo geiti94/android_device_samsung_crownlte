@@ -1,8 +1,14 @@
 [
 	{
 		"remote":"github",
-		"repository":"TeamWin/android_kernel_samsung_universal9810-crownlte",
+		"repository":"cawilliamson/crownlte",
 		"target_path":"kernel/samsung/universal9810-crownlte",
 		"revision":"android-8.1"
+	},
+	{
+		"remote":"github",
+		"repository":"TeamWin/android_device_qcom_common",
+		"target_path":"device/qcom/common",
+		"revision":"android-8.0"
 	}
 ]
