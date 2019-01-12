@@ -4,5 +4,11 @@
 		"repository":"cawilliamson/crownlte",
 		"target_path":"kernel/samsung/universal9810",
 		"revision":"tw80-android-o"
+	},
+	{
+		"remote": "aosp",
+		"repository": "platform/external/dtc",
+		"revision": "refs/tags/android-8.1.0_r53",
+		"target_path": "external/dtc"
 	}
 ]
