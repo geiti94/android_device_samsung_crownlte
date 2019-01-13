@@ -86,5 +86,8 @@ TW_USE_NEW_MINADBD := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
 
+# Workaround for error copying vendor files to recovery ramdisk
+TARGET_COPY_OUT_VENDOR := vendor
+
 # Includes
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/crownlte/include
