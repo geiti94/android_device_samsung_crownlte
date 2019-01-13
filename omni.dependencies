@@ -1,11 +1,5 @@
 [
 	{
-		"remote":"github",
-		"repository":"geiti94/android_kernel_samsung_universal9810_crownlte",
-		"target_path":"kernel/samsung/universal9810-crownlte",
-		"revision":"android-8.1"
-	},
-	{
 		"remote": "aosp",
 		"repository": "platform/external/dtc",
 		"revision": "refs/tags/android-8.1.0_r60",
