@@ -2,7 +2,7 @@
 	{
 		"remote": "aosp",
 		"repository": "platform/external/dtc",
-		"revision": "refs/tags/android-8.1.0_r60",
+		"revision": "refs/tags/android-8.1.0_r41",
 		"target_path": "external/dtc"
 	}
 ]
